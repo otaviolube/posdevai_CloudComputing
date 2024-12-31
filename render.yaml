@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: meu-projeto-flask
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /
