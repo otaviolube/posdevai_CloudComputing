@@ -67,6 +67,18 @@ meu_projeto/
 
 ---
 
+## 🌐 Diferenças entre Vercel e Render
+
+### Deploy na Vercel
+
+Na Vercel, a arquitetura utilizada é **Serverless**, o que significa que o ambiente de execução não permite deploys baseados em contêineres Docker. Mais informações podem ser encontradas na [documentação oficial](https://vercel.com/guides/does-vercel-support-docker-deployments). Essa limitação foi contornada com a utilização do modelo nativo de deploy da Vercel para aplicações Python.
+
+### Deploy na Render
+
+Na Render, foi possível configurar a **integração contínua via Docker**, utilizando o `Dockerfile` disponível no projeto. Isso permitiu a criação de um ambiente isolado e customizado para a aplicação, garantindo maior controle sobre as dependências e o ambiente de execução.
+
+---
+
 ## 📦 Dependências
 
 As dependências são gerenciadas pelo arquivo `requirements.txt`. Para instalar localmente:
