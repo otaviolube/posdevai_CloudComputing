@@ -55,6 +55,18 @@ meu_projeto/
 
 ---
 
+## 🖼️ Screenshots da Aplicação
+
+### Vercel
+
+![Screenshot da aplicação na Vercel](./screenshots/vercel_screenshot.png)
+
+### Render
+
+![Screenshot da aplicação na Render](./screenshots/render_screenshot.png)
+
+---
+
 ## 📦 Dependências
 
 As dependências são gerenciadas pelo arquivo `requirements.txt`. Para instalar localmente:
@@ -72,6 +84,7 @@ pip install -r requirements.txt
 - [Vercel](https://vercel.com/)
 - [GitHub Actions](https://docs.github.com/en/actions)
 - [Docker](https://docs.docker.com/)
+- [AVA da disciplina](https://ava3.cefor.ifes.edu.br/course/view.php?id=7874)
 
 ---
 
